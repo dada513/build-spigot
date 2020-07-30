@@ -23,5 +23,5 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dada513/build-spigot/m
 
 ### Examples:
 
-`$ ./buildspigot.ps1 -type spigot -version 1.16.1 -out spigot.jar`
+`$ ./buildspigot.ps1 -type spigot -version 1.16.1 -out spigot.jar`  
 `$ ./buildspigot.ps1 -type paper -version 1.16.1 -out paper.jar`
