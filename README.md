@@ -15,8 +15,8 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dada513/build-spigot/m
 
 `$ ./buildspigot.ps1 [params]`
 
-`-type`: Type of the server. Can be: `spigot` or `paper`.
-`-version`: Minecraft version of the server.
+`-type`: Type of the server. Can be: `spigot` or `paper`.  
+`-version`: Minecraft version of the server.  
 `-out`: file to output the jar to. default: `server.jar`
 
 ---
