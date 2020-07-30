@@ -13,7 +13,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dada513/build-spigot/m
 
 ## BuildSpigot 1.0.0
 
-`$ buildspigot [params]`
+`$ ./buildspigot.ps1 [params]`
 
 `-type`: Type of the server. Can be: `spigot` or `paper`.
 `-version`: Minecraft version of the server.
@@ -23,4 +23,4 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dada513/build-spigot/m
 
 ### Examples:
 
-`$ buildspigot -type spigot -version 1.16.1 -out spigot.jar`
+`$ ./buildspigot.ps1 -type spigot -version 1.16.1 -out spigot.jar`
